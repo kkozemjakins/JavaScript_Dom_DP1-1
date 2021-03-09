@@ -1,4 +1,4 @@
-const wmf = document.querySelector('#book-list li:nth-child(2) .name');
+const wmf = document.querySelector('#book-list li .name');
 console.log(wmf);
 
 var books = document.querySelector('#book-list li .name');
