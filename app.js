@@ -25,8 +25,11 @@ console.log(forms['add-book']);
  bookName.textContent = value;
  deleteBtn.textContent = 'delete';
 
+ bookName.classList.add('name');
+  deleteBtn.classList.add('delete');
+
  li.appendChild(bookName);
  li.appendChild(deleteBtn);
  list.appendChild(li);
- //list.insertBefore(li, list.querySelector('li:first-child'));
+ 
 });
